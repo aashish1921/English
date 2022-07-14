@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/cardview_dark_background"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <EditText
+          android:textColor="@color/white"
+            android:id="@+id/english"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Shotcut"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/hindi"
+            android:textColor="@color/white"
+            android:layout_below="@id/english"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full"
+            android:padding="10dp"/>
+        <Button
+
+            android:id="@+id/add"
+            android:layout_below="@id/hindi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="Add"
+            android:padding="10dp"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
